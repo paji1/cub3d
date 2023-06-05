@@ -13,9 +13,9 @@ clean :
 
 
 M : all
-	./cub3d mandatory/map/map.cub
+	./cub3d map/map.cub
 B : bonus
-	./cub3d_bonus bonus/map/map.cub
+	./cub3d_bonus map/map.cub
 
 fclean : clean
 	make fclean -C mandatory
